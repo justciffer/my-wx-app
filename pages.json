@@ -161,6 +161,7 @@
             "path" : "pages/msg/msg",
             "style" : {
 				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
 				"navigationBarTitleText": "消息列表",
 				"navigationBarBackgroundColor":"#f06c7a",
 				"navigationBarTextStyle":"white"
@@ -276,17 +277,17 @@
 				"text": "首页"
 			},
 			{
-				"pagePath": "pages/tabBar/category/category",
+				"pagePath": "pages/msg/msg",
 				"iconPath": "static/img/tabBar/category.png",
 				"selectedIconPath": "static/img/tabBar/category-on.png",
-				"text": "分类"
+				"text": "消息"
 			},
-			{
-				"pagePath": "pages/tabBar/cart/cart",
-				"iconPath": "static/img/tabBar/cart.png",
-				"selectedIconPath": "static/img/tabBar/cart-on.png",
-				"text": "购物车"
-			},
+			// {
+			// 	"pagePath": "pages/tabBar/cart/cart",
+			// 	"iconPath": "static/img/tabBar/cart.png",
+			// 	"selectedIconPath": "static/img/tabBar/cart-on.png",
+			// 	"text": "购物车"
+			// },
 			{
 				"pagePath": "pages/tabBar/user/user",
 				"iconPath": "static/img/tabBar/user.png",
